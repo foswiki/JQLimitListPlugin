@@ -1,0 +1,70 @@
+%META:TOPICINFO{author="ProjectContributor" date="1420222138" format="1.1" version="1"}%
+---+!! %TOPIC%
+%FORMFIELD{"Description"}%
+
+%TOC%
+
+---++ Description
+
+This is a simple plugin to ease the display of very long lists. Sometimes those lists are so long that you may
+not be able or you don't want to display all the items at once. Instead, it is sufficiant to display the first few
+items and them a "more" button to reveal the rest of the list.
+
+---++ Examples
+
+You type:
+
+<verbatim>
+%LIMITLIST{
+  "1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+  split="\s*,\s*"
+}%
+</verbatim>
+
+You get (if installed):
+
+%LIMITLIST{
+  "1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+  split="\s*,\s*"
+}%
+
+
+---+ Syntax
+
+<verbatim>
+%LIMITLIST{"a,b,c, ..." params}%
+</verbatim>
+
+| *Parameter* | *Description* | *Default* |
+| ="..."= or =text="..."= | the list to process | |
+| =split="..."= | expression to split the list; won't process the list unless defined | |
+| =separator="..."=  | when processing the list by specifying a =split= it will be joined again using this character | , |
+| =format="..."= | format string to be used when processin the list | =&lt;span>$1&lt;/span>= | 
+| =max="..."= | maximum number if items to display at first | 5 |
+| =more_text="..."= | text to be displayed when the list is collapsed | more |
+| =less_text="..."= | text to be displayed when the list is expanded | less |
+
+When the list needs to be processed in a more elaborated way please use the [[https://foswiki.org/Extensions/FilterPlugin][FilterPlugin]]. 
+
+---++ Installation Instructions
+%$INSTALL_INSTRUCTIONS%
+
+---++ Dependencies
+%$DEPENDENCIES%
+
+---++ Change History
+
+%TABLE{columnwidths="7em" tablewidth="100%"}%
+|  25 Jan 2024 | initial release |
+
+%META:FORM{name="PackageForm"}%
+%META:FIELD{name="Author" title="Author" value="Michael Daum"}%
+%META:FIELD{name="Version" title="Version" value="%$VERSION%"}%
+%META:FIELD{name="Release" title="Release" value="%$RELEASE%"}%
+%META:FIELD{name="Description" title="Description" value="%$SHORTDESCRIPTION%"}%
+%META:FIELD{name="Copyright" value="2022-2024, Michael Daum, All Rights Reserved"}%
+%META:FIELD{name="License" value="GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]])"}%
+%META:FIELD{name="Repository" value="https://github.com/foswiki/%$ROOTMODULE%"}%
+%META:FIELD{name="Home" value="http://foswiki.org/Extensions/%$ROOTMODULE%"}%
+%META:FIELD{name="Support" value="http://foswiki.org/Support/%$ROOTMODULE%"}%
+%META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%$ROOTMODULE%"}%

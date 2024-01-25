@@ -1,0 +1,9 @@
+!noci
+data/System/JQLimitListPlugin.txt 0644
+lib/Foswiki/Plugins/JQLimitListPlugin/Core.pm 0644
+lib/Foswiki/Plugins/JQLimitListPlugin/DEPENDENCIES 0644
+lib/Foswiki/Plugins/JQLimitListPlugin.pm 0644
+pub/System/JQLimitListPlugin/limitList.js 0644
+pub/System/JQLimitListPlugin/limitList.js.gz 0644
+pub/System/JQLimitListPlugin/limitList.uncompressed.js 0644
+pub/System/JQLimitListPlugin/Makefile 0644
