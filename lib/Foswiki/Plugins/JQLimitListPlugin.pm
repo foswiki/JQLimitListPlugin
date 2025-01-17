@@ -1,6 +1,6 @@
 # Extension for Foswiki - The Free and Open Source Wiki, http://foswiki.org/
 #
-# JQLimitListPlugin is Copyright (C) 2021-2024 Michael Daum http://michaeldaumconsulting.com
+# JQLimitListPlugin is Copyright (C) 2021-2025 Michael Daum http://michaeldaumconsulting.com
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -21,7 +21,7 @@ use warnings;
 use Foswiki::Func ();
 use Foswiki::Plugins::JQueryPlugin ();
 
-our $VERSION = '0.04';
+our $VERSION = '1.00';
 our $RELEASE = '%$RELEASE%';
 our $SHORTDESCRIPTION = 'simple plugin to limit the length of a list';
 our $LICENSECODE = '%$LICENSECODE%';

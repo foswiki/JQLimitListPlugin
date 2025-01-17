@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="ProjectContributor" date="1420222138" format="1.1" version="1"}%
+%META:TOPICINFO{author="ProjectContributor" date="1737111833" format="1.1" version="1"}%
 ---+!! %TOPIC%
 %FORMFIELD{"Description"}%
 
@@ -28,8 +28,7 @@ You get (if installed):
   split="\s*,\s*"
 }%
 
-
----+ Syntax
+---++ Syntax
 
 <verbatim>
 %LIMITLIST{"a,b,c, ..." params}%
@@ -55,16 +54,16 @@ When the list needs to be processed in a more elaborated way please use the [[ht
 ---++ Change History
 
 %TABLE{columnwidths="7em" tablewidth="100%"}%
+|  17 Jan 2025 | maintenance and docu; first 1.00 release |
 |  25 Jan 2024 | initial release |
 
 %META:FORM{name="PackageForm"}%
 %META:FIELD{name="Author" title="Author" value="Michael Daum"}%
-%META:FIELD{name="Version" title="Version" value="%$VERSION%"}%
-%META:FIELD{name="Release" title="Release" value="%$RELEASE%"}%
-%META:FIELD{name="Description" title="Description" value="%$SHORTDESCRIPTION%"}%
-%META:FIELD{name="Copyright" value="2022-2024, Michael Daum, All Rights Reserved"}%
-%META:FIELD{name="License" value="GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]])"}%
-%META:FIELD{name="Repository" value="https://github.com/foswiki/%$ROOTMODULE%"}%
-%META:FIELD{name="Home" value="http://foswiki.org/Extensions/%$ROOTMODULE%"}%
-%META:FIELD{name="Support" value="http://foswiki.org/Support/%$ROOTMODULE%"}%
-%META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%$ROOTMODULE%"}%
+%META:FIELD{name="Version" title="Version" value="%25$VERSION%25"}%
+%META:FIELD{name="Release" title="Release" value="%25$RELEASE%25"}%
+%META:FIELD{name="Description" title="Description" value="%25$SHORTDESCRIPTION%25"}%
+%META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%25$ROOTMODULE%25"}%
+%META:FIELD{name="Copyright" title="Copyright" value="2022-2025, Michael Daum, All Rights Reserved"}%
+%META:FIELD{name="License" title="License" value="GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]])"}%
+%META:FIELD{name="Home" title="Home" value="http://foswiki.org/Extensions/%25$ROOTMODULE%25"}%
+%META:FIELD{name="Support" title="Support" value="http://foswiki.org/Support/%25$ROOTMODULE%25"}%

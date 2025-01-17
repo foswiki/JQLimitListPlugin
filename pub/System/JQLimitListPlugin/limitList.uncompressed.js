@@ -1,7 +1,7 @@
 /*
  * jQuery Limit List 0.04
  *
- * Copyright (c) 2021-2024 Michael Daum https://michaeldaumconsulting.com
+ * Copyright (c) 2021-2025 Michael Daum https://michaeldaumconsulting.com
  *
  * Licensed under the GPL licenses http://www.gnu.org/licenses/gpl.html
  *
